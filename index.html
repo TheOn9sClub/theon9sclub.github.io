@@ -18,7 +18,28 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("banner.png");
+  background-size: 100%;
   background-color: #cccccc;
+}
+
+#back_to_top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#back_to_top:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
 }
 
 .icon-bar {
@@ -169,16 +190,16 @@ body {
   <a href="/about">About</a>
   <a href="/contact">Contact</a>
   <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
+    <form action="/search">
+      <input type="text" placeholder="Search.." name="s">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
   </div>
 </div>
 
 <div style="padding-left:16px">
-  <h2>TheOn9sClub</h2>
-  <p>RJLIN</p>
+  <h2 style="color:Cornsilk;">TheOn9sClub</h2>
+  <p style="color:Cornsilk;">RJLIN</p>
 </div>
 
 <button type="button"
@@ -187,7 +208,9 @@ Today is THEON9DAY(tap to view)</button>
 
 <p id="demo"></p>
 
-<p>Our projects</p>
+<div style="padding-left:16px">
+<p style="color:Cornsilk;">Our projects:</p>
+</div>
 
 <button class="accordion">Cubing Tutorials</button>
 <div class="panel">
@@ -225,6 +248,25 @@ for (i = 0; i < acc.length; i++) {
   <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
+
+<button onclick="topFunction()" id="back_to_top" title="Go to top">Top</button>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        document.getElementById("back_to_top").style.display = "block";
+    } else {
+        document.getElementById("back_to_top").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 
 </body>
 </html>
