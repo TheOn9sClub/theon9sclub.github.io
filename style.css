@@ -15,7 +15,7 @@ body {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: black;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -188,6 +188,7 @@ body {
 .dropdown {
     float: left;
     overflow: hidden;
+    color: black;
 }
 .dropdown .dropbtn {
     font-size: 16px;    
@@ -200,7 +201,7 @@ body {
     margin: 0;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+  background-color: #ddd;
 }
 .dropdown-content {
     display: none;
