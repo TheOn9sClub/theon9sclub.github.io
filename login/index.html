@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TheOn9sClub</title>
+	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="icon" href="icon.jpg">
+	<link rel="shortcut icon" href="icon.jpg">
+</head>
+<body>
+
+<iframe src="https://theon9sclub.github.io/header.html" style="top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0;">
+</iframe>
+
+<div style="padding-left:16px">
+  <h2 style="color:Cornsilk;">TheOn9sClub</h2>
+  <p style="color:Cornsilk;">Waiting for 2047...</p>
+</div>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Today is the International ON9 Day (tap to view)</button>
+
+  <p style="color:Cornsilk;">Dates:
+ 30/2 (Once every 16 years) Rj-day
+ 12/3 Birthday
+ 1/4 International On9ing day
+</p>
+
+<p id="demo"></p>
+
+<div style="padding-left:16px">
+<p style="color:Cornsilk;">Our projects:</p>
+</div>
+
+<button class="accordion">Cubing Tutorials</button>
+<div class="panel">
+  <p>We are good at cubing, so we started this project.</p>
+</div>
+
+<button class="accordion">iOS Apps</button>
+<div class="panel">
+  <p>We made this project for signning iOS apps and you can download paid apps for free.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+<p style="color:Cornsilk;">蒼天太叻</p>
+<p style="color:Cornsilk;">戇鳩黨立</p>
+<p style="color:Cornsilk;">歲在戊戌</p>
+<p style="color:Cornsilk;">天下戇鳩</p>
+<p><button class="button" onclick="self.location.href='appleprintcenter://';">Fuck your iPhone</button></p>
+
+<button onclick="topFunction()" id="back_to_top" title="Go to top">Top</button>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        document.getElementById("back_to_top").style.display = "block";
+    } else {
+        document.getElementById("back_to_top").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
