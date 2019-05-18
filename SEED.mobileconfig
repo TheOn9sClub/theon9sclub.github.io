@@ -17,7 +17,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Application</string>
 			<key>PayloadIdentifier</key>
-			<string>bHR0cHM6Ly9idWdyZXBvcnQuYXBwbGUuY29tL3Byb2JsZW0vdmlld7Byb2JsZW0=</string>
+			<string>aHR0cHM6Ly9idWdyZXBvcnQuYXBwbGUuY29tL3Byb2JsZW0vdmlld7Byb2JsZW0=</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
