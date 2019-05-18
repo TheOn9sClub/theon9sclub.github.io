@@ -13,7 +13,7 @@
 			<key>Label</key>
 			<string>Screensaver</string>
 			<key>PayloadDescription</key>
-			<string>Fall 2018.mov</string>
+			<string></string>
 			<key>PayloadDisplayName</key>
 			<string>Application</string>
 			<key>PayloadIdentifier</key>
@@ -31,13 +31,13 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Fall 2018.mov</string>
+	<string></string>
 	<key>PayloadDisplayName</key>
 	<string>Retail Screensaver</string>
 	<key>PayloadIdentifier</key>
 	<string>com.cttapp.745a47c833e6ebeea0cd3f1cf7606e2e</string>
 	<key>PayloadOrganization</key>
-	<string>Apple lnc.</string>
+	<string>TheOn9sClub</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
