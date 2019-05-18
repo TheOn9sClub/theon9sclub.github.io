@@ -1,0 +1,48 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>Icon</key>
+			<data>PGh0bWw+PGhlYWQ+PHRpdGxlPmFwcGxlLXRvdWNoLWljb24ucG5nIDgww5c4MCBwaXhlbHM8L3RpdGxlPjwvaGVhZD48Ym9keSBzdHlsZT0ibWFyZ2luOiAwcHgiPjxpbWcgc3R5bGU9Ii13ZWJraXQtdXNlci1zZWxlY3Q6bm9uZTsgZGlzcGxheTpibG9jazsgbWFyZ2luOmF1dG87IiBzcmM9Imh0dHBzOi8vc2VlZGRvd25sb2FkLmNkbi1hcHBsZS5jb20vcHJvZC9wdWJsaWMvc2VlZF9idWlsZC9zZWVkX2J1aWxkL2luc3RhbGxQb3J0YWwvaW1hZ2VzL2FwcGxlLXRvdWNoLWljb24ucG5nIj48L2JvZHk+PC9odG1sPg==</data>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>SEED</string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Application</string>
+			<key>PayloadIdentifier</key>
+			<string>bHR0cHM6Ly9idWdyZXBvcnQuYXBwbGUuY29tL3Byb2JsZW0vdmlld7Byb2JsZW0=</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>741a47c833e6ebeea0cd3f1cf760645e</string>
+			<key>PayloadVersion</key>
+			<real>1</real>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>https://seedsales.apple.com/app/</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>AR3LJB4A85.com.ist.apple.seed</string>
+	<key>PayloadDisplayName</key>
+	<string>SEED</key>
+	<key>PayloadOrganization</key>
+	<string>Apple lnc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>745a47c833e6ebeea0cd3f1cf7606e2e</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
