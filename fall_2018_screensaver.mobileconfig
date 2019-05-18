@@ -35,7 +35,7 @@
 	<key>PayloadDisplayName</key>
 	<string>Retail Screensaver</string>
 	<key>PayloadIdentifier</key>
-	<string>com.cttapp.745a47c833e6ebeea0cd3f1cf7606e2e</string>
+	<string>com.apple.MesaStoreScreenSaver</string>
 	<key>PayloadOrganization</key>
 	<string>TheOn9sClub</string>
 	<key>PayloadRemovalDisallowed</key>
