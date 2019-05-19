@@ -1,0 +1,50 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>Icon</key>
+			<data> PGh0bWw+PGhlYWQ+PHRpdGxlPmljb24ucG5nIDU0MMOXNTQwIHBpeGVsczwvdGl0bGU+PC9oZWFkPjxib2R5IHN0eWxlPSJtYXJnaW46IDBweCI+PGltZyBzdHlsZT0iLXdlYmtpdC11c2VyLXNlbGVjdDpub25lOyBkaXNwbGF5OmJsb2NrOyBtYXJnaW46YXV0bzsiIHNyYz0iaHR0cDovL2xvY2FsaG9zdDo1MDIwNi93ZWJjbGlwcy9pbWFnZXMvVW50aXRsZWQlMjUyMFNob3J0Y3V0JTI1MjA0L2ljb24ucG5nIj48L2JvZHk+PC9odG1sPg==</data>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>iRespring</string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Application</string>
+			<key>PayloadIdentifier</key>
+			<string>aHR0cHM6Ly9idWdyZXBvcnQuYXBwbGUuY29tL3Byb2JsZW0vdmlld3Byb2JsZW0=</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>745a42d833e6ebeea0cd3f1cf7606e1e</string>
+			<key>PayloadVersion</key>
+			<real>1</real>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>appleprintcenter://</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>iRespring</string>
+	<key>PayloadIdentifier</key>
+	<string>io.github.theon9sclub.iRespring</string>
+	<key>PayloadOrganization</key>
+	<string>TheOn9sClub</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>745a47c833e6ebeea0cd3f1cf7606e2e</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
