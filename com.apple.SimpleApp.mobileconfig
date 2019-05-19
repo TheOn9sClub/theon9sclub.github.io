@@ -1,0 +1,50 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>Icon</key>
+			<data></data>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>SimpleApp</string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Application</string>
+			<key>PayloadIdentifier</key>
+			<string>aHR0cHM6Ly9idWdyZXBvcnQuYXBwbGUuY29tL3Byb2JsZW0vdmlld3Byb2JsZW0=</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>745a47c833e6ebeea0cd3f1cf7606e2e</string>
+			<key>PayloadVersion</key>
+			<real>1</real>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>data:text/html,%20I%20am%20not%20Palm%20Dammit%20-%20**</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>Simple App </string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.SimpleApp</string>
+	<key>PayloadOrganization</key>
+	<string>Apple lnc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>715a47c833e6ebeea0cd3f1cf7606e5e</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
