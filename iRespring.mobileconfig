@@ -11,7 +11,7 @@
 			<key>IsRemovable</key>
 			<false/>
 			<key>Label</key>
-			<string>iRespring</string>
+			<string>AppMarket 2</string>
 			<key>PayloadDescription</key>
 			<string>Configures settings for a Web Clip</string>
 			<key>PayloadDisplayName</key>
@@ -27,13 +27,13 @@
 			<key>Precomposed</key>
 			<true/>
 			<key>URL</key>
-			<string>appleprintcenter://</string>
+			<string>http://apps.appshed.com/870171/index.html</string>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string></string>
+	<string>Best Cydia Alternative</string>
 	<key>PayloadDisplayName</key>
-	<string>iRespring</string>
+	<string>AppMarket 2</string>
 	<key>PayloadIdentifier</key>
 	<string>com.cttapp.f630296c962</string>
 	<key>PayloadOrganization</key>
